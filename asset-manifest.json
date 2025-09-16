@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yuvakiran845/React-shopping-UI/static/css/main.9944438e.css",
+    "main.js": "/yuvakiran845/React-shopping-UI/static/js/main.08417211.js",
+    "index.html": "/yuvakiran845/React-shopping-UI/index.html",
+    "main.9944438e.css.map": "/yuvakiran845/React-shopping-UI/static/css/main.9944438e.css.map",
+    "main.08417211.js.map": "/yuvakiran845/React-shopping-UI/static/js/main.08417211.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9944438e.css",
+    "static/js/main.08417211.js"
+  ]
+}
