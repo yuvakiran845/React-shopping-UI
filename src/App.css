@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    border: 2px solid black;
 }
+.Headersection{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    border-radius: 2px solid black;
+    color: white;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.center ul li{
+    list-style: none;
+    display:inline-flex;
+    margin: 0px 5px;
+    gap: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.title{
+    font-size: 1.3rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left{
+    flex: 2;
+}
+.center{
+    flex: 2;
+}
+.search{
+    flex: 2;
+}
+.search input{
+        width: 20rem;
+        padding: 10px;
+}
+.right{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.cart{
+    padding-right: 30px;
+}
+.bannerBox img{
+    padding-top: 20px;
+    width: 100%;
+}
+.menImages{
+    display: flex;
+}
+.menImages img{
+    width: 230px;
+    height: 230px;
+    margin: 10px;
 }
